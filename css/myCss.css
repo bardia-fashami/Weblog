@@ -1,0 +1,156 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    text-align: justify;
+    line-height: 1.5em;
+    direction: rtl;
+    color: grey;
+    margin: 8px;
+    padding: 8px;
+}
+#container-footer{
+    background-image: url("../Pictures/Background-Header.jpg");
+    height: 150px;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    transform: rotate(180deg);
+    margin-top: 20px;
+}
+#container-footer #logo{
+    transform: rotate(180deg);
+    width: 450px;
+    position: relative;
+    top: 50px;
+}
+
+#container-header{
+    background-image: url("../Pictures/Background-Header.jpg");
+    height: 250px;
+}
+#logo{
+    color: antiquewhite;
+    font-size: 45px;
+    font-family: "HeaderLogo","Times New Roman", serif;
+    position: relative;
+    left: 110px;
+    top: 110px;
+    width: 80%;
+}
+#logo2{
+    color: rgb(18, 10, 83);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 20px;
+    left:-80px
+}
+@font-face {
+    font-family: "HeaderLogo";
+    src: url("../Fonts/HARLOWSI.TTF");
+    }
+.thead{
+    background-color: cornflowerblue;	
+    text-align: center;
+}
+#kashanPics{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+#kashanText {
+    border: 3px solid green;
+    margin: 20px 0px 10px 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#rowWithTable {
+    width: 100%;
+}
+#rowWithTable tr {
+    vertical-align: top;
+}
+
+.rowWithCss-table {
+    display: table;
+}
+.rowWithCss-row { 
+    display: table-row;     
+}
+.rowWithCss-column { 
+    display: table-cell;
+    width: 55%;
+    height:20px;
+    vertical-align:middle;
+}
+/* #goToGoogle:hover{
+    font-size: large;
+    cursor: crosshair;
+    background-color: red;
+    color:aqua;
+    border: 3px solid black;
+} */
+#goToGoogle:visited{
+    color: red;
+}
+#TextOfManchesterCity {
+    display: flex;
+    flex-direction: row;
+}
+#TextOfManchesterCity p{
+    padding: 10px;
+    font-size: x-large;
+}
+#TextOfManchesterCity img{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+/* 
+mesii css 
+*/
+
+#textOfMessi{
+    font-size: xx-large;
+    text-align: right;
+}
+#p_messi{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-size: x-large; 
+    padding-top:10px;
+}
+#p_messi p{
+    margin:20px;
+}
+.h1{
+    text-align: left;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+#container-body {
+    border: 5px solid rgb(50, 129, 233);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+        flex-direction: row;
+        font-size: x-large;
+        text-align: right;
+}
+
+#mytext{
+    border: 3px solid red;
+    border-radius: 10px;
+    text-align: right;
+    padding: 10px;
+}
+#myH2{
+    text-align: right;
+}
+
