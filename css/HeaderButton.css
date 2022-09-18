@@ -1,0 +1,102 @@
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:600&display=swap'); */
+@font-face {
+    font-family: "Tahoma";
+    src: url("../Fonts/tahoma.ttf");
+    }
+  @font-face {
+      font-family: 'Font Awesome 5 Free';
+      src: url('../Fonts/fa-solid-900.ttf'); 
+  }
+#headerButtonContainer{
+  display: flex;
+  flex-direction: row-reverse;
+ } 
+.headerButton{
+  position: relative;
+  display: inline-flex;
+  width: 180px;
+  height: 55px;
+  margin: 0 15px;
+  perspective: 1000px;
+  right: 40px;
+  top: 130px;
+}
+.headerButton a{
+  font-size: 20px;
+  letter-spacing: 1px;
+  transform-style: preserve-3d;
+  transform: translateZ(-25px);
+  transition: transform .25s;
+  font-family: "Tahoma", sans-serif;
+  
+}
+#ButtonKashan a:before,
+#ButtonKashan a:after{
+  position: absolute;
+  content: "سفرنامه";
+  height: 55px;
+  width: 190px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid rgb(39, 90, 230);
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.headerButton a:before{
+  color: #fff;
+  background: rgb(39, 90, 230);
+  transform: rotateY(0deg) translateZ(25px);
+}
+.headerButton a:after{
+  color: rgb(229, 231, 236);
+  transform: rotateX(90deg) translateZ(25px);
+}
+.headerButton a:hover{
+  transform: translateZ(-25px) rotateX(-90deg);
+}
+#ButtonHome a:before,
+#ButtonHome a:after{
+    font-family: "Font Awesome 5 Free";  
+    font-weight: 900;
+    position: absolute;
+    content:"\f015";
+    height: 55px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(39, 90, 230);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+#ButtonHome{
+  width: 75px;
+}
+#ButtonMacity a:before,
+#ButtonMacity a:after{ 
+    position: absolute;
+    content:"منچستر سیتی";
+    height: 55px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(39, 90, 230);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+}
+#ButtonMessi a:before,
+#ButtonMessi  a:after{
+    position: absolute;
+    content: "مسی";
+    height: 55px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(39, 90, 230);
+    box-sizing: border-box;
+    border-radius: 5px;
+}
